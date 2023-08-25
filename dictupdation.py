@@ -1,0 +1,19 @@
+dict1={
+    1:2,
+    2:3,
+    3:4
+}
+dict2={
+    4:5,
+    5:6,
+    6:7
+}
+dict3={
+    7:8,
+    8:9,
+    9:10
+}
+dict1.update(dict2)
+print(dict1)
+dict1.update(dict3)
+print(dict1)
